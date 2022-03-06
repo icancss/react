@@ -1,10 +1,13 @@
 import "./App.css";
-import ClickApp from "./components/ClickApp";
+//import Events from "./components/Events";
+//import ClickApp from "./components/ClickApp";
 
 function App() {
+  console.log();
   return (
     <div className="App">
-      <ClickApp />
+      {/* <ClickApp /> */}
+      {/* <Events /> */}
     </div>
   );
 }
