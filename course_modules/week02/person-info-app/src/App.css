@@ -1,0 +1,62 @@
+/* UI Design */
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.info-container{
+  outline: 1px solid blueviolet;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+
+}
+
+.array-container{
+  padding-top: 20px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.person-container{
+  align-self: flex-start;
+}
+
+.children-container, .friends-container{
+  display: flex;
+  
+}
+
+.child-section, .friend-section{
+  display: flex;
+  flex-direction: column;
+}
+
+#avatar{
+  border: 1px solid blueviolet;
+}
+
+ul, li{
+  margin: 5px;
+}
+
+span{
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: coral;
+  /* display: inline; */
+  align-self: flex-start;
+  width: max-content;
+  color: white;
+}
+
+h2{
+  background-color: coral;
+  color: white;
+}
