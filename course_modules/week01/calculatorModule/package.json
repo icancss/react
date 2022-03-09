@@ -1,0 +1,26 @@
+
+{
+  "name": "mycalculatormodule",
+  "version": "1.0.0",
+  "description": "arithmetic operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icancss/react.git"
+  },
+  "keywords": [
+    "add",
+    "sub",
+    "multiply",
+    "divide"
+  ],
+  "author": "ican",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icancss/react/issues"
+  },
+  "homepage": "https://github.com/icancss/react#readme"
+}
