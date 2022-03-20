@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  width: 90vw;
+  height: 5vh;
+  margin: 2rem;
+  font-size: xx-large;
+  background-color: cadetblue;
+  color: white;
+}
+
+.q-button {
+  width: 20vw;
+  background-color: bisque;
+  margin-left: 2em;
+  padding: 1.5rem;
+  font-size: x-large;
+}
+
+.qa-part {
+  width: 90vw;
+  display: flex;
+  justify-content: flex-start;
+  padding: 1.5rem;
+  margin: 2rem;
+}
+
+.question {
+  background-color: bisque;
+  margin-right: 25px;
+  border: 1px solid coral;
+  width: 10rem;
+  height: 3rem;
+  padding-top: 2.5rem;
+  font-size: x-large;
+}
+
+button {
+  margin: 5rem;
+  width: 10rem;
+  height: 5rem;
+  padding-top: 2.5rem;
+  font-size: x-large;
+  color: white;
+}
+
+.score-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  color: white;
+  margin-left: 3rem;
+  padding-left: 3rem;
+  width: 25rem;
+  font-size: x-large;
+}
+
+#true {
+  background-color: green;
+  width: 25rem;
+}
+
+#false {
+  background-color: red;
+  width: 25rem;
+}
+
+.score-section {
+  margin: 0 auto;
+  color: white;
+  width: 25rem;
+  font-size: xx-large;
+  background-color: cadetblue;
+}
+
+.correct {
+  background-color: #2f922f;
+}
+
+.incorrect {
+  background-color: #ff3333;
+}
