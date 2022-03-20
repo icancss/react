@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  margin: 1% auto;
+  height: 50vh;
+  width: 50%;
+}
+
+.person-information {
+  margin-top: 50px;
+  background-color: rgb(204, 224, 242);
+}
